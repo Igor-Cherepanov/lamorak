@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
  * App\Models\Bank
@@ -22,6 +24,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|Bank whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Bank whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @method static Builder|Bank filter(array $frd)
  */
 class Bank extends Model
 {
@@ -82,6 +85,36 @@ class Bank extends Model
         return $this->updated_at;
     }
 
+    /**
+     * @param Builder $query
+     * @param array $frd
+     * @return Builder
+     */
+    public function scopeFilter(Builder $query, array $frd): Builder
+    {
+        foreach ($frd as $key => $value) {
+            switch ($key) {
+                case 'search':
+                    $query->where('name', 'like', '%' . $value . '%');
+                    break;
+            }
+        }
 
+        return $query;
+    }
+
+    /**
+     * @return BelongsTo
+     */
+    public function city():BelongsTo{
+        return $this->belongsTo(City::class, 'city_id', 'id');
+    }
+
+    /**
+     * @return City
+     */
+    public function getCity():City{
+        return $this->city;
+    }
 
 }

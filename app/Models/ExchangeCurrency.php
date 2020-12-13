@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -38,6 +39,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|ExchangeCurrency whereSoldRubCount($value)
  * @method static \Illuminate\Database\Eloquent\Builder|ExchangeCurrency whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @method static Builder|ExchangeCurrency filter(array $frd)
  */
 class ExchangeCurrency extends Model
 {
@@ -234,5 +236,22 @@ class ExchangeCurrency extends Model
         return $this->updated_at;
     }
 
+    /**
+     * @param Builder $query
+     * @param array $frd
+     * @return Builder
+     */
+    public function scopeFilter(Builder $query, array $frd): Builder
+    {
+        foreach ($frd as $key => $value) {
+            switch ($key) {
+                case 'search':
+                    $query->where('name', 'like', '%' . $value . '%');
+                    break;
+            }
+        }
+
+        return $query;
+    }
 
 }

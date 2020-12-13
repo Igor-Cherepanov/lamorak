@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+<nav class="navbar navbar-expand-md navbar-light shadow-sm" style="background-color: #b3e8ca">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
             {{ config('app.name', 'Laravel') }}
@@ -10,6 +10,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <div class="nav-item btn mt-0 dropdown-toggle text-black-50" type="button" id="dropdownMenuButton"
+                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Справочник
+                    </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="{{route('currencies.index')}}">Валюты</a>
+                        <a class="dropdown-item" href="{{route('cities.index')}}">Города</a>
+                        <a class="dropdown-item" href="{{route('banks.index')}}">Банки</a>
+                        <a class="dropdown-item" href="{{route('exchange-currencies.index')}}">Обмен валют</a>
+                        <a class="dropdown-item" href="{{route('exchange-offices.index')}}">Пункты обмена валют</a>
+                    </div>
+                </li>
 
             </ul>
 

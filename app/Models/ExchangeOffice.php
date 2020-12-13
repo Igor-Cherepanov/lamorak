@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
  * App\Models\ExchangeOffice
@@ -22,6 +24,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|ExchangeOffice whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|ExchangeOffice whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @method static Builder|ExchangeOffice filter(array $frd)
  */
 class ExchangeOffice extends Model
 {
@@ -31,6 +34,7 @@ class ExchangeOffice extends Model
 
     protected $fillable = [
         'name',
+        'bank_id',
     ];
 
     /**
@@ -81,7 +85,37 @@ class ExchangeOffice extends Model
         return $this->updated_at;
     }
 
+    /**
+     * @param Builder $query
+     * @param array $frd
+     * @return Builder
+     */
+    public function scopeFilter(Builder $query, array $frd): Builder
+    {
+        foreach ($frd as $key => $value) {
+            switch ($key) {
+                case 'search':
+                    $query->where('name', 'like', '%' . $value . '%');
+                    break;
+            }
+        }
 
+        return $query;
+    }
+
+    /**
+     * @return BelongsTo
+     */
+    public function bank():BelongsTo{
+        return $this->belongsTo(Bank::class, 'bank_id', 'id');
+    }
+
+    /**
+     * @return Bank
+     */
+    public function getBank():Bank{
+        return $this->bank;
+    }
 
 
 }

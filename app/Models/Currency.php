@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -20,12 +21,13 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|Currency whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Currency whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @method static Builder|Currency filter(array $frd)
  */
 class Currency extends Model
 {
     use HasFactory;
 
-    protected $table = 'currency';
+    protected $table = 'currencies';
 
     protected $fillable = [
         'name',
@@ -61,6 +63,24 @@ class Currency extends Model
     public function getUpdatedAt(): ?\Illuminate\Support\Carbon
     {
         return $this->updated_at;
+    }
+
+    /**
+     * @param Builder $query
+     * @param array $frd
+     * @return Builder
+     */
+    public function scopeFilter(Builder $query, array $frd): Builder
+    {
+        foreach ($frd as $key => $value) {
+            switch ($key) {
+                case 'search':
+                    $query->where('name', 'like', '%' . $value . '%');
+                    break;
+            }
+        }
+
+        return $query;
     }
 
 

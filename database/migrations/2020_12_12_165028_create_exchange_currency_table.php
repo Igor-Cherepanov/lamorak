@@ -27,7 +27,7 @@ class CreateExchangeCurrencyTable extends Migration
             $table->integer('bought_rub_count');
             $table->timestamps();
 
-            $table->foreign('currency_id')->references('id')->on('currency')
+            $table->foreign('currency_id')->references('id')->on('currencies')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
