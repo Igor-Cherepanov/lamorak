@@ -12,10 +12,13 @@ class CurrencyController extends Controller
      */
     protected $currencies;
 
+    /**
+     * CurrencyController constructor.
+     * @param Currency $currencies
+     */
     public function __construct(Currency $currencies)
     {
         $this->currencies = $currencies;
-
     }
 
     /**
@@ -25,80 +28,87 @@ class CurrencyController extends Controller
     public function index(Request $request)
     {
         $frd = $request->all();
-//        $currencies =
+        $currencies = $this->currencies->filter($frd)->orderBy($frd['ordering'] ?? 'id')->paginate(10);
 
-        return view('currency.index', compact('currencies', 'frd'));
+        return view('currencies.index', compact('currencies', 'frd'));
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function create(Request $request)
     {
         $frd = $request->all();
 
+        return view('currencies.create', compact('frd'));
     }
 
     /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function store(Request $request)
     {
         $frd = $request->all();
+        $currency = $this->currencies->create($frd);
 
+        $flashMessages = [['type' => 'success', 'text' => 'Валюта «' . $currency->getName() . '» сохранена']];
+
+        return redirect()->route('currencies.edit', $currency)->with(compact('flashMessages'));
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function show(Request $request)
     {
         $frd = $request->all();
 
+        return view('currencies.store', compact('frd'));
     }
 
     /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @param Currency $currency
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
-    public function edit(Request $request)
+    public function edit(Request $request, Currency $currency)
     {
         $frd = $request->all();
 
+        return view('currencies.edit', compact('frd', 'currency'));
     }
 
     /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @param Currency $currency
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Currency $currency)
     {
         $frd = $request->all();
+        $currency->update($frd);
 
+        $flashMessages = [['type' => 'success', 'text' => 'Валюта «' . $currency->getName() . '» сохранена']];
+
+        return redirect()->back()->with(compact('flashMessages', 'currency', 'frd'));
     }
 
     /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @param Currency $currency
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Exception
      */
-    public function destroy(Request $request)
+    public function destroy(Request $request, Currency $currency)
     {
         $frd = $request->all();
+        $currency->delete();
 
+        $flashMessages = [['type' => 'success', 'text' => 'Валюта «' . $currency->getName() . '» удалена']];
+
+        return redirect()->route('currencies.index')->with(compact('frd', 'flashMessages'));
     }
 }
