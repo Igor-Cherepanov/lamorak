@@ -17,9 +17,9 @@
     <meta property="og:description" content="Маленькому городу - большой сайт!">
     <meta property="og:image" content="http://img.kushva-online.ru/kushva-online-330.png">
 
-    <link href="/images/favicon.ico" rel="SHORTCUT ICON">
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link rel="stylesheet" href="/css/board.css" type="text/css">
+    <link href="http://kushva-online.ru/images/favicon.ico" rel="SHORTCUT ICON">
+    <link rel="stylesheet" href="http://kushva-online.ru/css/style.css" type="text/css">
+    <link rel="stylesheet" href="http://kushva-online.ru/css/board.css" type="text/css">
     <link rel="alternate" type="application/rss+xml" title="Новости сайта" href="http://kushva-online.ru/rss/news/">
     <link rel="alternate" type="application/rss+xml" title="Новое в блогах" href="http://kushva-online.ru/rss/blog/">
     <link rel="alternate" type="application/rss+xml" title="Новые страницы справочника"
@@ -27,19 +27,19 @@
     <link rel="alternate" type="application/rss+xml" title="Стихи на Кушва-онлайн.ру"
           href="http://kushva-online.ru/rss/poems/">
     <link rel="alternate" type="application/rss+xml" title="Фото дня" href="http://kushva-online.ru/rss/day_photo/">
-    <script type="text/javascript" src="//an.yandex.ru/system/context.js" async=""></script>
+    <script type="text/javascript" src="http://kushva-online.ru//an.yandex.ru/system/context.js" async=""></script>
     <script type="text/javascript" async="" src="https://apis.google.com/js/plusone.js" gapi_processed="true"></script>
-    <script src="/scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+    <script src="http://kushva-online.ru/scripts/AC_RunActiveContent.js" type="text/javascript"></script>
 
-    <script src="/scripts/jquery-2.0.3.min.js" type="text/javascript"></script>
-    <script src="/scripts/jquery.cookie.js" type="text/javascript"></script>
-    <script src="/scripts/jquery.chained.js" type="text/javascript"></script>
+    <script src="http://kushva-online.ru/scripts/jquery-2.0.3.min.js" type="text/javascript"></script>
+    <script src="http://kushva-online.ru/scripts/jquery.cookie.js" type="text/javascript"></script>
+    <script src="http://kushva-online.ru/scripts/jquery.chained.js" type="text/javascript"></script>
 
     <!-- Include Cloud Zoom CSS. -->
-    <link rel="stylesheet" type="text/css" href="/css/cloudzoom.css">
+    <link rel="stylesheet" type="text/css" href="http://kushva-online.ru/css/cloudzoom.css">
 
     <!-- Include Cloud Zoom script. -->
-    <script type="text/javascript" src="/scripts/cloudzoom1.js"></script>
+    <script type="text/javascript" src="http://kushva-online.ru/scripts/cloudzoom1.js"></script>
 
     <!-- Call quick start function. -->
     <script type="text/javascript">
@@ -50,11 +50,11 @@
     <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&amp;lang=ru-RU"
             type="text/javascript"></script>
 
-    <script src="/scripts/main.js" type="text/javascript"></script>
+    <script src="http://kushva-online.ru/scripts/main.js" type="text/javascript"></script>
     <script type="text/javascript" src="http://userapi.com/js/api/openapi.js?25"></script>
-    <script src="/scripts/rating.js" type="text/javascript"></script>
-    <link href="/css/fotorama.css" rel="stylesheet"> <!-- 13 KB -->
-    <script src="/scripts/fotorama.js"></script> <!-- 28 KB -->
+    <script src="http://kushva-online.ru/scripts/rating.js" type="text/javascript"></script>
+    <link href="http://kushva-online.ru/css/fotorama.css" rel="stylesheet"> <!-- 13 KB -->
+    <script src="http://kushva-online.ru/scripts/fotorama.js"></script> <!-- 28 KB -->
     <script type="text/javascript">
         VK.init({apiId: 2315794, onlyWidgets: true});
     </script>
@@ -4599,20 +4599,20 @@
             </iframe>
         </div>
     </div>
-    <div class="headmenu" style="background-image: url(/images/head0.png);">
-        <div class="headlogo" style="background-image: url(/images/head0.png);"><a href="/"><img
-                    src="/images/kushva-online.png" alt="Кушва-онлайн.ру"></a></div>
-        <div class="menu-item"><a href="/archive/">Архив</a></div>
-        <div class="menu-item"><a href="/board/">Объявления</a></div>
-        <div class="menu-item"><a href="/spravka/">Справка</a></div>
-        <div class="menu-item"><a href="/blog/">Блоги</a></div>
-        <div class="menu-item"><a href="/estate/">Жильё</a></div>
-        <div class="menu-item"><a href="/job/">Работа</a></div>
+    <div class="headmenu" style="background-image: url(http://kushva-online.ru/images/head0.png);">
+        <div class="headlogo" style="background-image: url(http://kushva-online.ru/images/head0.png);"><a href="http://kushva-online.ru/"><img
+                    src="http://kushva-online.ru/images/kushva-online.png" alt="Кушва-онлайн.ру"></a></div>
+        <div class="menu-item"><a href="http://kushva-online.ru/archive/">Архив</a></div>
+        <div class="menu-item"><a href="http://kushva-online.ru/board/">Объявления</a></div>
+        <div class="menu-item"><a href="http://kushva-online.ru/spravka/">Справка</a></div>
+        <div class="menu-item"><a href=http://kushva-online.ru"/blog/">Блоги</a></div>
+        <div class="menu-item"><a href="http://kushva-online.ru/estate/">Жильё</a></div>
+        <div class="menu-item"><a href="http://kushva-online.ru/job/">Работа</a></div>
 
 
         <div class="headlogin">
-            <a href="/user/login" class="white">Войти на сайт</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-                href="/user/registration/" class="white">Регистрация</a></div>
+            <a href="http://kushva-online.ru/user/login" class="white">Войти на сайт</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                href="http://kushva-online.ru/user/registration/" class="white">Регистрация</a></div>
 
     </div>
     <br clear="all">
@@ -4629,69 +4629,69 @@
                             <td style="width: 50%;">
 
                                 <div class="topic_head1" style="background-color: #f6f3e4;">
-                                    <div class="topic_head_link1"><a href="/archive/news/" class="white">Новости</a>
+                                    <div class="topic_head_link1"><a href="http://kushva-online.ru/archive/news/" class="white">Новости</a>
                                     </div>
                                     <div class="topic_head_title">Главные новости на сайте</div>
                                 </div>
                                 <div class="topic_body1" style="background-color: #f6f3e4;">
                                     <p><span class="date">17&nbsp;декабря,&nbsp;13:43&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/news/4838/#topic"
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/news/4838/#topic"
                                                                 title="Обсуждение"><img
-                                                    src="/images/comment0.png"> 0</a></span> &nbsp;&nbsp;&nbsp;
-                                        <a href="/user/login/" class="like">
+                                                    src="http://kushva-online.ru/images/comment0.png"> 0</a></span> &nbsp;&nbsp;&nbsp;
+                                        <a href="http://kushva-online.ru/user/login/" class="like">
         <span class="ilikeit_false">
 			0            <span class="ilikeit_title" style="opacity: 0;">— Хорошая новость!</span>        </span>
                                         </a><br>
-                                        <span class="h3"><a href="/archive/news/4838/">Действие моратория на начисление пеней подходит к концу</a></span>
+                                        <span class="h3"><a href="http://kushva-online.ru/archive/news/4838/">Действие моратория на начисление пеней подходит к концу</a></span>
                                     </p>
 
 
-                                    <p><a href="/archive/news/4838/"><img
+                                    <p><a href="http://kushva-online.ru/archive/news/4838/"><img
                                                 src="http://img.kushva-online.ru/archive/news/2020/12/34ecf731b0c0503c6ba1b15a32a08a13_600.jpg"
                                                 style="width: 100%; height: auto; max-width: 600px; max-height: 398px"></a><br>
                                         С 1 января 2021 года закончится срок действия послаблений, которые были введены
                                         из-за коронавируса. <span class="sub"><a
-                                                href="/archive/news/4838/">Полный текст</a></span></p>
+                                                href="http://kushva-online.ru/archive/news/4838/">Полный текст</a></span></p>
                                     <hr class="hr3" style="margin: 20px 0px;">
                                     <p><span class="date">16&nbsp;декабря,&nbsp;22:52&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/news/4836/#topic"
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/news/4836/#topic"
                                                                 title="Обсуждение"><img
-                                                    src="/images/comment0.png"> 0</a></span> &nbsp;&nbsp;&nbsp;
-                                        <a href="/user/login/" class="like">
+                                                    src="http://kushva-online.ru/images/comment0.png"> 0</a></span> &nbsp;&nbsp;&nbsp;
+                                        <a href="http://kushva-online.ru/user/login/" class="like">
         <span class="ilikeit_false">
 			0            <span class="ilikeit_title" style="opacity: 0;">— Хорошая новость!</span>        </span>
                                         </a><br>
-                                        <span class="h3"><a href="/archive/news/4836/">Поход в кино лучше планировать заранее</a></span>
+                                        <span class="h3"><a href="http://kushva-online.ru/archive/news/4836/">Поход в кино лучше планировать заранее</a></span>
                                     </p>
 
 
-                                    <p><a href="/archive/news/4836/"><img
+                                    <p><a href="http://kushva-online.ru/archive/news/4836/"><img
                                                 src="http://img.kushva-online.ru/archive/news/2020/12/be0b32a810f319cd29d38f64bd02b30a_600.jpg"
                                                 style="width: 100%; height: auto; max-width: 600px; max-height: 400px"></a><br>
                                         В кинотеатре «Феникс» ввели бронирование на посещение киносеансов. Если вы
                                         планируете пойти в кино, позаботьтесь о билетах заранее. <span class="sub"><a
-                                                href="/archive/news/4836/">Полный текст</a></span></p>
+                                                href="http://kushva-online.ru/archive/news/4836/">Полный текст</a></span></p>
                                     <hr class="hr3" style="margin: 20px 0px;">
                                     <p><span class="date">15&nbsp;декабря,&nbsp;23:41&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/news/4833/#topic"
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/news/4833/#topic"
                                                                 title="Обсуждение"><img
-                                                    src="/images/comment0.png"> 0</a></span> &nbsp;&nbsp;&nbsp;
-                                        <a href="/user/login/" class="like">
+                                                    src="http://kushva-online.ru/images/comment0.png"> 0</a></span> &nbsp;&nbsp;&nbsp;
+                                        <a href="http://kushva-online.ru/user/login/" class="like">
         <span class="ilikeit_false">
 			0            <span class="ilikeit_title" style="opacity: 0;">— Хорошая новость!</span>        </span>
                                         </a><br>
-                                        <span class="h3"><a href="/archive/news/4833/">«Горняк» продолжает турнир без поражений</a></span>
+                                        <span class="h3"><a href="http://kushva-online.ru/archive/news/4833/">«Горняк» продолжает турнир без поражений</a></span>
                                     </p>
 
 
-                                    <p><a href="/archive/news/4833/"><img
+                                    <p><a href="http://kushva-online.ru/archive/news/4833/"><img
                                                 src="http://img.kushva-online.ru/archive/news/2020/12/538567d8dfafbe79a46cf0591509713d_600.jpg"
                                                 style="width: 100%; height: auto; max-width: 576px; max-height: 400px"></a><br>
                                         12 и 13 декабря состоялись очередные матчи Областного этапа Всероссийских
                                         соревнований юных хоккеистов клуба «Золотая шайба» имени А. В. Тарасова. <span
-                                            class="sub"><a href="/archive/news/4833/">Полный текст</a></span></p>
+                                            class="sub"><a href="http://kushva-online.ru/archive/news/4833/">Полный текст</a></span></p>
                                     <hr class="hr3" style="margin: 20px 0px;">
-                                    <h3 style="text-align:center; margin: 10px;"><a href="/archive/news/">Больше
+                                    <h3 style="text-align:center; margin: 10px;"><a href="http://kushva-online.ru/archive/news/">Больше
                                             новостей</a></h3><br></div>
                                 <span style="clear:left">&nbsp;</span>
 
@@ -4705,23 +4705,23 @@
                                 </div>
 
                                 <div class="topic_head1">
-                                    <div class="topic_head_link1"><a href="/archive/guest/" class="white">Гости</a>
+                                    <div class="topic_head_link1"><a href="http://kushva-online.ru/archive/guest/" class="white">Гости</a>
                                     </div>
                                     <div class="topic_head_title">Сегодня у нас в гостях...</div>
                                 </div>
 
                                 <div class="topic_body1">
 
-                                    <a href="/archive/guest/623/"><img
+                                    <a href="http://kushva-online.ru/archive/guest/623/"><img
                                             src="http://img.kushva-online.ru/archive/guest/icon/2020-11/WpaCabWtoRA.jpg"
                                             class="topic_icon"></a>
 
                                     <p><span class="date">11&nbsp;ноября,&nbsp;18:18&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/guest/623/#topic"
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/guest/623/#topic"
                                                                 title="Обсуждение"><img
-                                                    src="/images/comment3.png"> 0</a></span><br>
+                                                    src="http://kushva-online.ru/images/comment3.png"> 0</a></span><br>
 
-                                        <span class="h3"><a href="/archive/guest/623/">Виктор Елышев:</a> «Большая перемена» — конкурс для тех, кто готов меняться и менять мир»</span>
+                                        <span class="h3"><a href="http://kushva-online.ru/archive/guest/623/">Виктор Елышев:</a> «Большая перемена» — конкурс для тех, кто готов меняться и менять мир»</span>
                                     </p>
                                     <p>В марте 2020 года был дан старт всероссийскому конкурсу «Большая перемена»,
                                         участие в которым приняли старшеклассники школ Кушвинского городского округа. В
@@ -4743,7 +4743,7 @@
 
 
                                 <div class="topic_head2">
-                                    <div class="topic_head_link2"><a href="/blog/" class="white">Блоги</a></div>
+                                    <div class="topic_head_link2"><a href="http://kushva-online.ru/blog/" class="white">Блоги</a></div>
                                     <div class="topic_head_title">Интересное в блогах</div>
                                 </div>
 
@@ -4754,66 +4754,66 @@
                                         <div class="list_item">
                                             <span
                                                 class="date">17&nbsp;декабря,&nbsp;16:49&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/blog/22236/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
-                                            <a href="/blog/user/SV-GUM/"><img
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/blog/22236/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/blog/user/SV-GUM/"><img
                                                     src="http://img.kushva-online.ru/blog/icon/ed8b6eae8538bbf6fdf536c43742f72a_33.jpg"
                                                     style="width: 33px; height: 33px; margin-right: 5px"
                                                     class="topic_icon"></a>
-                                            <p><a href="/blog/user/SV-GUM/" class="green1">Спорт-клуб SV-GYM</a><br>
-                                                <span><a href="/blog/post/SV-GUM/22236/">Спорт-клуб SV-GYM</a></span>
+                                            <p><a href="http://kushva-online.ru/blog/user/SV-GUM/" class="green1">Спорт-клуб SV-GYM</a><br>
+                                                <span><a href="http://kushva-online.ru/blog/post/SV-GUM/22236/">Спорт-клуб SV-GYM</a></span>
                                             </p>
                                         </div>
                                         <div class="list_item">
                                             <span
                                                 class="date">17&nbsp;декабря,&nbsp;16:48&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/blog/22235/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
-                                            <a href="/blog/user/gibdd/"><img
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/blog/22235/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/blog/user/gibdd/"><img
                                                     src="http://img.kushva-online.ru/blog/icon/gic9c11e21ea1500ef13c626a2acd6de_33.jpg"
                                                     style="width: 33px; height: 33px; margin-right: 5px"
                                                     class="topic_icon"></a>
-                                            <p><a href="/blog/user/gibdd/" class="green1">ГИБДД</a><br>
-                                                <span><a href="/blog/post/gibdd/22235/">В Свердловской области с 7 по 13 декабря зарегистрировано 1 ДТП с пострадавшим</a></span>
+                                            <p><a href="http://kushva-online.ru/blog/user/gibdd/" class="green1">ГИБДД</a><br>
+                                                <span><a href="http://kushva-online.ru/blog/post/gibdd/22235/">В Свердловской области с 7 по 13 декабря зарегистрировано 1 ДТП с пострадавшим</a></span>
                                             </p>
                                         </div>
                                         <div class="list_item">
                                             <span
                                                 class="date">17&nbsp;декабря,&nbsp;16:47&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/blog/22234/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
-                                            <a href="/blog/user/gibdd/"><img
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/blog/22234/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/blog/user/gibdd/"><img
                                                     src="http://img.kushva-online.ru/blog/icon/gic9c11e21ea1500ef13c626a2acd6de_33.jpg"
                                                     style="width: 33px; height: 33px; margin-right: 5px"
                                                     class="topic_icon"></a>
-                                            <p><a href="/blog/user/gibdd/" class="green1">ГИБДД</a><br>
-                                                <span><a href="/blog/post/gibdd/22234/">Итоги профилактического мероприятия  "Безопасная дорога"</a></span>
+                                            <p><a href="http://kushva-online.ru/blog/user/gibdd/" class="green1">ГИБДД</a><br>
+                                                <span><a href="http://kushva-online.ru/blog/post/gibdd/22234/">Итоги профилактического мероприятия  "Безопасная дорога"</a></span>
                                             </p>
                                         </div>
                                         <div class="list_item">
                                             <span
                                                 class="date">17&nbsp;декабря,&nbsp;16:44&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/blog/22233/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
-                                            <a href="/blog/user/gibdd/"><img
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/blog/22233/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/blog/user/gibdd/"><img
                                                     src="http://img.kushva-online.ru/blog/icon/gic9c11e21ea1500ef13c626a2acd6de_33.jpg"
                                                     style="width: 33px; height: 33px; margin-right: 5px"
                                                     class="topic_icon"></a>
-                                            <p><a href="/blog/user/gibdd/" class="green1">ГИБДД</a><br>
-                                                <span><a href="/blog/post/gibdd/22233/">Внимание молодым водителям!</a></span>
+                                            <p><a href="http://kushva-online.ru/blog/user/gibdd/" class="green1">ГИБДД</a><br>
+                                                <span><a href="http://kushva-online.ru/blog/post/gibdd/22233/">Внимание молодым водителям!</a></span>
                                             </p>
                                         </div>
                                         <div class="list_item">
                                             <span
                                                 class="date">17&nbsp;декабря,&nbsp;13:47&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/blog/22232/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
-                                            <a href="/blog/user/SV-GUM/"><img
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/blog/22232/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/blog/user/SV-GUM/"><img
                                                     src="http://img.kushva-online.ru/blog/icon/ed8b6eae8538bbf6fdf536c43742f72a_33.jpg"
                                                     style="width: 33px; height: 33px; margin-right: 5px"
                                                     class="topic_icon"></a>
-                                            <p><a href="/blog/user/SV-GUM/" class="green1">Спорт-клуб SV-GYM</a><br>
-                                                <span><a href="/blog/post/SV-GUM/22232/">Спорт-клуб SV-GYM</a></span>
+                                            <p><a href="http://kushva-online.ru/blog/user/SV-GUM/" class="green1">Спорт-клуб SV-GYM</a><br>
+                                                <span><a href="http://kushva-online.ru/blog/post/SV-GUM/22232/">Спорт-клуб SV-GYM</a></span>
                                             </p>
                                         </div>
                                     </div>
@@ -4829,24 +4829,24 @@
                                 </div>
 
                                 <div class="topic_head1">
-                                    <div class="topic_head_link1"><a href="/archive/survey/" class="white">Опросы</a>
+                                    <div class="topic_head_link1"><a href="http://kushva-online.ru/archive/survey/" class="white">Опросы</a>
                                     </div>
                                     <div class="topic_head_title">Ответьте на несколько вопросов</div>
                                 </div>
 
                                 <div class="topic_body1">
 
-                                    <a href="/archive/survey/64/"><img
+                                    <a href="http://kushva-online.ru/archive/survey/64/"><img
                                             src="http://img.kushva-online.ru/archive/survey/icon/2020-10/dkpark.jpg"
                                             class="topic_icon"></a>
 
 
                                     <p><span class="date">17&nbsp;октября&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/survey/64/#topic"
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/survey/64/#topic"
                                                                 title="Обсуждение"><img
-                                                    src="/images/comment3.png"> 0</a></span><br>
+                                                    src="http://kushva-online.ru/images/comment3.png"> 0</a></span><br>
 
-                                        <span class="h3"><a href="/archive/survey/64/">Выбери название парка</a></span>
+                                        <span class="h3"><a href="http://kushva-online.ru/archive/survey/64/">Выбери название парка</a></span>
                                     </p>
                                     <p>До 1 ноября жители города могут принять участие в онлайн-голосовании по выбору
                                         названия парка Кушвинского дворца культуры</p>
@@ -4855,7 +4855,7 @@
 
 
                                 <div class="topic_head2">
-                                    <div class="topic_head_link2"><a href="/archive/video/" class="white">Видео</a>
+                                    <div class="topic_head_link2"><a href="http://kushva-online.ru/archive/video/" class="white">Видео</a>
                                     </div>
                                     <div class="topic_head_title">Видеоновости Кушвинского телевидения</div>
                                 </div>
@@ -4863,27 +4863,27 @@
 
                                     <div style="background-image:url(http://i.ytimg.com/vi/3QFZTMjAaks/default.jpg
 ); background-position: center; width: 100px; height: 67px; float:left; margin-right: 10px;">
-                                        <a href="/archive/video/4145/"><img src="/images/play_video.png"></a></div>
+                                        <a href="http://kushva-online.ru/archive/video/4145/"><img src="http://kushva-online.ru/images/play_video.png"></a></div>
 
 
                                     <p><span class="date">17&nbsp;декабря&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/video/4145/#topic"
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/video/4145/#topic"
                                                                 title="Обсуждение"><img
-                                                    src="/images/comment2.png"> 0</a></span><br>
-                                        <span class="h3"><a href="/archive/video/4145/">Старт социальных проектов "Будь здоров" и "Мы за позитив"</a></span>
+                                                    src="http://kushva-online.ru/images/comment2.png"> 0</a></span><br>
+                                        <span class="h3"><a href="http://kushva-online.ru/archive/video/4145/">Старт социальных проектов "Будь здоров" и "Мы за позитив"</a></span>
                                     </p>
                                     <div class="topic_list">
                                         <div class="list_item"><span
                                                 class="date">16&nbsp;декабря&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/video/4144/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
-                                            <a href="/archive/video/4144/">"Рождественские чтения - 2020" в формате
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/video/4144/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/archive/video/4144/">"Рождественские чтения - 2020" в формате
                                                 онлайн</a></div>
                                         <div class="list_item"><span
                                                 class="date">15&nbsp;декабря&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/video/4143/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
-                                            <a href="/archive/video/4143/">Прокуратура о проверках среднего и малого
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/video/4143/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/archive/video/4143/">Прокуратура о проверках среднего и малого
                                                 предпринимательства</a></div>
                                     </div>
                                     <span style="clear:left">&nbsp;</span></div>
@@ -4901,54 +4901,54 @@
                             <td>
 
                                 <div class="topic_head2">
-                                    <div class="topic_head_link2"><a href="/archive/gallery"
+                                    <div class="topic_head_link2"><a href="http://kushva-online.ru/archive/gallery"
                                                                      class="white">Фотогалерея</a></div>
                                     <div class="topic_head_title">Последние новости в фотографиях</div>
                                 </div>
                                 <div class="topic_body2">
-                                    <a href="/archive/gallery/381/#title"><img
+                                    <a href="http://kushva-online.ru/archive/gallery/381/#title"><img
                                             src="http://img.kushva-online.ru/archive/gallery/2020-05/pz/small/01.jpg"
                                             class="topic_icon" width="100" height="67" alt="Скажи учителю спасибо-2020"></a>
                                     <p><span class="date">29&nbsp;мая,&nbsp;11:30&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/gallery/381/#topic"
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/gallery/381/#topic"
                                                                 title="Обсуждение"><img
-                                                    src="/images/comment2.png"> 1</a></span><br>
-                                        <span class="h3"><a href="/archive/gallery/381/#title">Скажи учителю спасибо-2020</a></span>
+                                                    src="http://kushva-online.ru/images/comment2.png"> 1</a></span><br>
+                                        <span class="h3"><a href="http://kushva-online.ru/archive/gallery/381/#title">Скажи учителю спасибо-2020</a></span>
                                     </p>
                                     <p>В жизни каждого есть педагог, кого мы всегда вспоминаем с благодарностью и
                                         теплом. По случаю окончания учебного года, который прошел…&nbsp;&nbsp; <span
                                             class="sub">Фото:&nbsp;</span></p>
                                     <div class="topic_list">
                                         <div class="list_item"><span class="date">16&nbsp;сентября&nbsp;2019,&nbsp;10:55&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/gallery/380/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
-                                            <a href="/archive/gallery/380/">Осенняя эстафета и Кросс нации-2019</a>
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/gallery/380/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/archive/gallery/380/">Осенняя эстафета и Кросс нации-2019</a>
                                         </div>
                                         <div class="list_item"><span class="date">14&nbsp;июля&nbsp;2019,&nbsp;00:43&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/gallery/379/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
-                                            <a href="/archive/gallery/379/">День города — 2019</a></div>
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/gallery/379/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/archive/gallery/379/">День города — 2019</a></div>
                                     </div>
                                     <span style="clear:left">&nbsp;</span></div>
 
 
                                 <div class="topic_head1">
-                                    <div class="topic_head_link1"><a href="/spravka/afisha/cinema_day/" class="white">Киноафиша</a>
+                                    <div class="topic_head_link1"><a href="http://kushva-online.ru/spravka/afisha/cinema_day/" class="white">Киноафиша</a>
                                     </div>
                                     <div class="topic_head_title">Смотрите в кинотеатре</div>
                                 </div>
 
                                 <div class="topic_body1">
 
-                                    <a href="/spravka/afisha/cinema_show/#film987"><img
+                                    <a href="http://kushva-online.ru/spravka/afisha/cinema_show/#film987"><img
                                             src="http://img.kushva-online.ru/spravka/cinema/2020/12/3582028_small.jpg"
                                             class="topic_icon" width="80" height="120" alt="Барбоскины на даче"></a>
-                                    <p><span class="h3"><a href="/spravka/afisha/cinema_show/#film987">Барбоскины на даче</a></span>
+                                    <p><span class="h3"><a href="http://kushva-online.ru/spravka/afisha/cinema_show/#film987">Барбоскины на даче</a></span>
                                     </p>
                                     <span class="sub">Жанр: мультфильм, семейный</span>
                                     <p></p>
-                                    <p><span class="comments"><a href="/city/comments/cinema/987/#topic"
-                                                                 title="Обсуждение"><img src="/images/comment3.png">&nbsp;0</a></span>
+                                    <p><span class="comments"><a href="http://kushva-online.ru/city/comments/cinema/987/#topic"
+                                                                 title="Обсуждение"><img src="http://kushva-online.ru/images/comment3.png">&nbsp;0</a></span>
                                     </p>
                                     <h3>24&nbsp;декабря&nbsp;в&nbsp;17:40<br><span class="sub">24&nbsp;декабря&nbsp;в&nbsp;17:40</span>
                                     </h3><br style="clear:left">&nbsp;
@@ -4956,23 +4956,23 @@
 
 
                                 <div class="topic_head2">
-                                    <div class="topic_head_link2"><a href="/spravka/afisha/" class="white">Афиша</a>
+                                    <div class="topic_head_link2"><a href="http://kushva-online.ru/spravka/afisha/" class="white">Афиша</a>
                                     </div>
                                     <div class="topic_head_title">Самые ожидаемые события</div>
                                 </div>
-                                <div class="topic_body2"><a href="/spravka/afisha/event/5167/"><img
+                                <div class="topic_body2"><a href="http://kushva-online.ru/spravka/afisha/event/5167/"><img
                                             src="http://img.kushva-online.ru/spravka/afisha/icon/2020-12/JYuhjCWv.jpg"
                                             class="topic_icon" width="100" height="67"
                                             alt="Новогодняя программа «Новогодняя весЁЛКА!» (по заявкам)"></a>
 
                                     <p><span
                                             class="date">24&nbsp;декабря — 30&nbsp;декабря&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/afisha/5167/#topic"
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/afisha/5167/#topic"
                                                                 title="Обсуждение"><img
-                                                    src="/images/comment2.png"> 0</a></span><br>
+                                                    src="http://kushva-online.ru/images/comment2.png"> 0</a></span><br>
 
                                         <span class="h3">Кушвинский дворец культуры — </span><a
-                                            href="/spravka/afisha/event/5167/">Новогодняя программа «Новогодняя
+                                            href="http://kushva-online.ru/spravka/afisha/event/5167/">Новогодняя программа «Новогодняя
                                             весЁЛКА!» (по заявкам)</a></p>
                                     <div class="topic_list">
                                         <div class="list_item"><span class="date">Суббота, 19&nbsp;декабря&nbsp;в&nbsp;12:00</span><br>
@@ -4990,7 +4990,7 @@
                                     <span style="clear:left">&nbsp;</span></div>
 
                                 <div class="topic_head2" style="background-color: #feecec;">
-                                    <div class="topic_head_link2"><a href="/archive/day_scene/" class="white">Картина
+                                    <div class="topic_head_link2"><a href="http://kushva-online.ru/archive/day_scene/" class="white">Картина
                                             дня</a></div>
                                     <div class="topic_head_title">Новые фотографии</div>
                                 </div>
@@ -5000,7 +5000,7 @@
                                     <div style="float:left; width: 40px; height: 40px; margin: 5px 2px 2px 2px ;">
 
 
-                                        <a href="/archive/day_scene/day/2020/12/16/5166">
+                                        <a href="http://kushva-online.ru/archive/day_scene/day/2020/12/16/5166">
                                             <img
                                                 src="http://img.kushva-online.ru/archive/day_scene/2020/12/030bf09b80b4e42ca346ff6ca0719066_40.jpg"
                                                 width="40" height="40" alt="... © Алексей Лукин. 16 декабря 2020"
@@ -5008,7 +5008,7 @@
                                     <div style="float:left; width: 40px; height: 40px; margin: 5px 2px 2px 2px ;">
 
 
-                                        <a href="/archive/day_scene/day/2020/12/16/5165">
+                                        <a href="http://kushva-online.ru/archive/day_scene/day/2020/12/16/5165">
                                             <img
                                                 src="http://img.kushva-online.ru/archive/day_scene/2020/12/c6091f1b0caf9b9700ba9773083bba79_40.jpg"
                                                 width="40" height="40" alt="... © Алексей Лукин. 16 декабря 2020"
@@ -5016,7 +5016,7 @@
                                     <div style="float:left; width: 40px; height: 40px; margin: 5px 2px 2px 2px ;">
 
 
-                                        <a href="/archive/day_scene/day/2020/12/16/5164">
+                                        <a href="http://kushva-online.ru/archive/day_scene/day/2020/12/16/5164">
                                             <img
                                                 src="http://img.kushva-online.ru/archive/day_scene/2020/12/401602d2a4d24dbd8bd920d62276ea70_40.jpg"
                                                 width="40" height="40" alt="... © Алексей Лукин. 16 декабря 2020"
@@ -5024,7 +5024,7 @@
                                     <div style="float:left; width: 40px; height: 40px; margin: 5px 2px 2px 2px ;">
 
 
-                                        <a href="/archive/day_scene/day/2020/12/16/5163">
+                                        <a href="http://kushva-online.ru/archive/day_scene/day/2020/12/16/5163">
                                             <img
                                                 src="http://img.kushva-online.ru/archive/day_scene/2020/12/bc642868c6885d4b8782a5a755597fc4_40.jpg"
                                                 width="40" height="40" alt="... © Алексей Лукин. 16 декабря 2020"
@@ -5032,7 +5032,7 @@
                                     <div style="float:left; width: 40px; height: 40px; margin: 5px 2px 2px 2px ;">
 
 
-                                        <a href="/archive/day_scene/day/2020/12/16/5162">
+                                        <a href="http://kushva-online.ru/archive/day_scene/day/2020/12/16/5162">
                                             <img
                                                 src="http://img.kushva-online.ru/archive/day_scene/2020/12/a3eeab4da0f5feb29ec8b6066b71ac0e_40.jpg"
                                                 width="40" height="40" alt="... © Алексей Лукин. 16 декабря 2020"
@@ -5040,7 +5040,7 @@
                                     <div style="float:left; width: 40px; height: 40px; margin: 5px 2px 2px 2px ;">
 
 
-                                        <a href="/archive/day_scene/day/2020/12/16/5161">
+                                        <a href="http://kushva-online.ru/archive/day_scene/day/2020/12/16/5161">
                                             <img
                                                 src="http://img.kushva-online.ru/archive/day_scene/2020/12/7632dd29a59f433c44f5879bcfbba49e_40.jpg"
                                                 width="40" height="40" alt="... © Алексей Лукин. 16 декабря 2020"
@@ -5048,7 +5048,7 @@
                                     <div style="float:left; width: 40px; height: 40px; margin: 5px 2px 2px 2px ;">
 
 
-                                        <a href="/archive/day_scene/day/2020/12/15/5160">
+                                        <a href="http://kushva-online.ru/archive/day_scene/day/2020/12/15/5160">
                                             <img
                                                 src="http://img.kushva-online.ru/archive/day_scene/2020/12/3e84f9748cd84ec64c7b95039da26e1a_40.jpg"
                                                 width="40" height="40" alt="... © Ольга Сидорова. 15 декабря 2020"
@@ -5057,7 +5057,7 @@
                                 </div>
 
                                 <div class="topic_head2">
-                                    <div class="topic_head_link2"><a href="/archive/poems/" class="white">Стихи</a>
+                                    <div class="topic_head_link2"><a href="http://kushva-online.ru/archive/poems/" class="white">Стихи</a>
                                     </div>
                                     <div class="topic_head_title">Каждый день новое стихотворение</div>
                                 </div>
@@ -5065,8 +5065,8 @@
                                 <div class="topic_body2">
 
                                     <p><span class="date">17&nbsp;декабря&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/poems/637/#topic"
-                                                                title="Обсуждение"><img src="/images/comment2.png">&nbsp;0</a></span><br>
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/poems/637/#topic"
+                                                                title="Обсуждение"><img src="http://kushva-online.ru/images/comment2.png">&nbsp;0</a></span><br>
 
                                         <i></i></p>
                                     <p><i>Снежноступая величаво<br>
@@ -5078,7 +5078,7 @@
                                             под Новый Год лишь тихо спросит:<br>
                                             - Когда же счастье, к нам придёшь?...</i></p>
 
-                                    <p><span class="sub">Сергей Витюнин «<a href="/archive/poems/637/">Снежноступая величаво...</a>»</span>
+                                    <p><span class="sub">Сергей Витюнин «<a href="http://kushva-online.ru/archive/poems/637/">Снежноступая величаво...</a>»</span>
                                     </p><span style="clear:left">&nbsp;</span></div>
 
                                 <div class="banner">
@@ -5091,18 +5091,18 @@
                                 </div>
 
                                 <div class="topic_head1">
-                                    <div class="topic_head_link1"><a href="/spravka/consultant/all/" class="white">Консультанты</a>
+                                    <div class="topic_head_link1"><a href="http://kushva-online.ru/spravka/consultant/all/" class="white">Консультанты</a>
                                     </div>
                                     <div class="topic_head_title">Интересные</div>
                                 </div>
                                 <div class="topic_body1">
 
                                     <div class="list_item">
-                                        <div style="float: left; margin-right: 10px;"><a href="/spravka/consultant/51/"><img
+                                        <div style="float: left; margin-right: 10px;"><a href="http://kushva-online.ru/spravka/consultant/51/"><img
                                                     src="http://img.kushva-online.ru/users/4dd274a6d91b1095672b6254d3ff9633_80.jpg"
                                                     style="width: 80px; height: 80px;"></a></div>
 
-                                        <p><span class="h3"><a href="/spravka/consultant/51/">Михаил Владимирович Слепухин</a></span><br>
+                                        <p><span class="h3"><a href="http://kushva-online.ru/spravka/consultant/51/">Михаил Владимирович Слепухин</a></span><br>
                                             Глава Кушвинского городского округа</p>
                                         <p><span class="sub">Ответит на вопросы кушвинцев, связанных с жизнью и развитием Кушвинского городского округа.</span>
                                         </p>
@@ -5111,27 +5111,27 @@
 
 
                                     <div class="list_item">
-                                        <a href="/spravka/consultant/41/"><img
+                                        <a href="http://kushva-online.ru/spravka/consultant/41/"><img
                                                 src="http://img.kushva-online.ru/spravka/consultant/icon/d57f3857afD54c5c3B111_33.jpg"
                                                 style="width: 33px; height: 33px; margin-right: 5px" class="topic_icon"></a>
-                                        <p><a href="/spravka/consultant/41/" class="green1">Алексей Вадимович
+                                        <p><a href="http://kushva-online.ru/spravka/consultant/41/" class="green1">Алексей Вадимович
                                                 Шляпников</a><br>
                                             <span class="sub">Начальник УПФР в городе Кушве и городе Верхней Туре</span>
                                         </p>
                                     </div>
                                     <div class="list_item">
-                                        <a href="/spravka/consultant/51/"><img
+                                        <a href="http://kushva-online.ru/spravka/consultant/51/"><img
                                                 src="http://img.kushva-online.ru/users/4dd274a6d91b1095672b6254d3ff9633_33.jpg"
                                                 style="width: 33px; height: 33px; margin-right: 5px" class="topic_icon"></a>
-                                        <p><a href="/spravka/consultant/51/" class="green1">Михаил Владимирович
+                                        <p><a href="http://kushva-online.ru/spravka/consultant/51/" class="green1">Михаил Владимирович
                                                 Слепухин</a><br>
                                             <span class="sub">Глава Кушвинского городского округа</span></p>
                                     </div>
                                     <div class="list_item">
-                                        <a href="/spravka/consultant/58/"><img
+                                        <a href="http://kushva-online.ru/spravka/consultant/58/"><img
                                                 src="http://img.kushva-online.ru/users/002608ad3aec2fc259bc89c919ae8200_33.jpg"
                                                 style="width: 33px; height: 33px; margin-right: 5px" class="topic_icon"></a>
-                                        <p><a href="/spravka/consultant/58/" class="green1">Аленгоз Наталья
+                                        <p><a href="http://kushva-online.ru/spravka/consultant/58/" class="green1">Аленгоз Наталья
                                                 Викторовна</a><br>
                                             <span class="sub">Начальник Управления образования Кушвинского городского округа.</span>
                                         </p>
@@ -5148,22 +5148,22 @@
                                 </div>
 
                                 <div class="topic_head2">
-                                    <div class="topic_head_link2"><a href="/board/" class="white">Объявления</a></div>
+                                    <div class="topic_head_link2"><a href="http://kushva-online.ru/board/" class="white">Объявления</a></div>
                                     <div class="topic_head_title">Интересные объявления</div>
                                 </div>
                                 <div class="topic_body2">
 
-                                    <a href="/board/" class="green1">Доска объявлений</a>&nbsp;&nbsp; <span
+                                    <a href="http://kushva-online.ru/board/" class="green1">Доска объявлений</a>&nbsp;&nbsp; <span
                                         class="date">17&nbsp;декабря,&nbsp;15:51</span><br>
-                                    <a href="/board/notice/101687/"><img
+                                    <a href="http://kushva-online.ru/board/notice/101687/"><img
                                             src="http://img.kushva-online.ru/board/2020/12/5adc1e98005c9a48ec053d799930dfad_33.jpg"
                                             style="width: 33px; height: 33px; margin: 2px 5px 0px 0px"
                                             class="topic_icon">Продам Приставку</a><br>
                                     Продам приставку ps 3 хороший подарок на новый год ребенку…<br>&nbsp;
 
-                                    <p><a href="/board/auto/" class="green1">Авторынок</a>&nbsp;&nbsp; <span
+                                    <p><a href="http://kushva-online.ru/board/auto/" class="green1">Авторынок</a>&nbsp;&nbsp; <span
                                             class="date">16&nbsp;декабря,&nbsp;18:51</span><br>
-                                        <a href="/board/auto/12309/"><img
+                                        <a href="http://kushva-online.ru/board/auto/12309/"><img
                                                 src="http://img.kushva-online.ru/board/2020/12/244bfc0e9d994d5147e2fe2bd1d3f1f2_33.jpg"
                                                 style="width: 33px; height: 33px; margin: 2px 5px 0px 0px"
                                                 class="topic_icon">
@@ -5185,23 +5185,23 @@
 
 
                                 <div class="topic_head2" style="background-color: #ffe4cc;">
-                                    <div class="topic_head_link2"><a href="/archive/bazar/"
+                                    <div class="topic_head_link2"><a href="http://kushva-online.ru/archive/bazar/"
                                                                      class="white">Базар-вокзал</a></div>
-                                    <div class="topic_head_title"><a href="/archive/bazar/new_topic/">Открыть новую
+                                    <div class="topic_head_title"><a href="http://kushva-online.ru/archive/bazar/new_topic/">Открыть новую
                                             тему</a></div>
                                 </div>
                                 <div class="topic_body2" style="background-color: #ffe4cc;">
 
 
-                                    <a href="/city/comments/bazar/1120/#topic"><img src="/images/bazar.png" align="left"
+                                    <a href="http://kushva-online.ru/city/comments/bazar/1120/#topic"><img src="http://kushva-online.ru/images/bazar.png" align="left"
                                                                                     style="margin-right: 15px;"></a>
 
                                     <p><span class="date">31&nbsp;мая,&nbsp;11:51&nbsp;&nbsp;&nbsp; </span><span
-                                            class="comments"><a href="/city/comments/bazar/1120/#topic"
-                                                                title="Обсуждение"><img src="/images/comment0.png">&nbsp;5</a></span><br>
+                                            class="comments"><a href="http://kushva-online.ru/city/comments/bazar/1120/#topic"
+                                                                title="Обсуждение"><img src="http://kushva-online.ru/images/comment0.png">&nbsp;5</a></span><br>
 
                                         <span class="h3"><a
-                                                href="/city/comments/bazar/1120/">Кошки группы ШАНС ищут дом</a></span>
+                                                href="http://kushva-online.ru/city/comments/bazar/1120/">Кошки группы ШАНС ищут дом</a></span>
                                     </p>
 
                                     <p>Все бывшие бездомные, сейчас на передержках, приучены к порядку. Все стерильные.
@@ -5210,24 +5210,24 @@
                                         <div class="list_item">
                                             <span
                                                 class="date">17&nbsp;декабря,&nbsp;12:33&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/bazar/1226/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment0.png">&nbsp;0</a></span><br>
-                                            <a href="/city/comments/bazar/1226/#topic">Лесные ресурсы - берёзовый сок и
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/bazar/1226/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment0.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/city/comments/bazar/1226/#topic">Лесные ресурсы - берёзовый сок и
                                                 т. д.</a>
                                         </div>
                                         <div class="list_item">
                                             <span
                                                 class="date">15&nbsp;декабря,&nbsp;04:18&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/bazar/1222/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment0.png">&nbsp;0</a></span><br>
-                                            <a href="/city/comments/bazar/1222/#topic">Бог в помощь</a>
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/bazar/1222/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment0.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/city/comments/bazar/1222/#topic">Бог в помощь</a>
                                         </div>
                                         <div class="list_item">
                                             <span
                                                 class="date">14&nbsp;декабря,&nbsp;21:37&nbsp;&nbsp;&nbsp; </span><span
-                                                class="comments"><a href="/city/comments/bazar/1221/#topic"
-                                                                    title="Обсуждение"><img src="/images/comment0.png">&nbsp;0</a></span><br>
-                                            <a href="/city/comments/bazar/1221/#topic">Для льготников и не только.</a>
+                                                class="comments"><a href="http://kushva-online.ru/city/comments/bazar/1221/#topic"
+                                                                    title="Обсуждение"><img src="http://kushva-online.ru/images/comment0.png">&nbsp;0</a></span><br>
+                                            <a href="http://kushva-online.ru/city/comments/bazar/1221/#topic">Для льготников и не только.</a>
                                         </div>
                                     </div>
                                     <span style="clear:left">&nbsp;</span></div>
@@ -5243,7 +5243,7 @@
 
 
                                 <div class="topic_head1">
-                                    <div class="topic_head_link1"><a href="/spravka/otvety/" class="white">Ответы</a>
+                                    <div class="topic_head_link1"><a href="http://kushva-online.ru/spravka/otvety/" class="white">Ответы</a>
                                     </div>
                                     <div class="topic_head_title">Последние вопросы</div>
                                 </div>
@@ -5251,40 +5251,40 @@
                                 <div class="topic_body1">
                                     <div class="list_item">
 
-                                        <a href="/spravka/otvety/question/9256/">Кто скажет, почему батареи опять
+                                        <a href="http://kushva-online.ru/spravka/otvety/question/9256/">Кто скажет, почему батареи опять
                                             холодные?</a>&nbsp;&nbsp;<span class="comments"><a
-                                                href="/spravka/otvety/question/9256/#answers" title="Ответов: 3"><img
-                                                    src="/images/answer3.png">&nbsp;3</a></span><br>
+                                                href="http://kushva-online.ru/spravka/otvety/question/9256/#answers" title="Ответов: 3"><img
+                                                    src="http://kushva-online.ru/images/answer3.png">&nbsp;3</a></span><br>
 
                                         <span class="sub">Интересуется <b>Алекс</b></span></div>
                                     <div class="list_item">
 
-                                        <a href="/spravka/otvety/question/9255/">Как вам плата за посещения хоккейных
+                                        <a href="http://kushva-online.ru/spravka/otvety/question/9255/">Как вам плата за посещения хоккейных
                                             турниров?</a>&nbsp;&nbsp;<span class="comments"><a
-                                                href="/spravka/otvety/question/9255/#answers" title="Ответов: 9"><img
-                                                    src="/images/answer3.png">&nbsp;9</a></span><br>
+                                                href="http://kushva-online.ru/spravka/otvety/question/9255/#answers" title="Ответов: 9"><img
+                                                    src="http://kushva-online.ru/images/answer3.png">&nbsp;9</a></span><br>
 
                                         <span class="sub">Интересуется <b>СК..</b></span></div>
                                     <div class="list_item">
 
-                                        <a href="/spravka/otvety/question/9254/">Решить РГР</a>&nbsp;&nbsp;<span
-                                            class="comments"><a href="/spravka/otvety/question/9254/#answers"
-                                                                title="Ответов: 1"><img src="/images/answer3.png">&nbsp;1</a></span><br>
+                                        <a href="http://kushva-online.ru/spravka/otvety/question/9254/">Решить РГР</a>&nbsp;&nbsp;<span
+                                            class="comments"><a href="http://kushva-online.ru/spravka/otvety/question/9254/#answers"
+                                                                title="Ответов: 1"><img src="http://kushva-online.ru/images/answer3.png">&nbsp;1</a></span><br>
 
                                         <span class="sub">Интересуется <b>николай</b></span></div>
                                     <div class="list_item">
 
-                                        <a href="/spravka/otvety/question/9253/">Кто у нас в городе может установить
+                                        <a href="http://kushva-online.ru/spravka/otvety/question/9253/">Кто у нас в городе может установить
                                             сигнализацию на авто?</a>&nbsp;&nbsp;<span class="comments"><a
-                                                href="/spravka/otvety/question/9253/#answers" title="Нет ответов"><img
-                                                    src="/images/answer3.png">&nbsp;0</a></span><br>
+                                                href="http://kushva-online.ru/spravka/otvety/question/9253/#answers" title="Нет ответов"><img
+                                                    src="http://kushva-online.ru/images/answer3.png">&nbsp;0</a></span><br>
 
                                         <span class="sub">Интересуется <b>Аноним</b></span></div>
                                     <div class="list_item">
 
-                                        <a href="/spravka/otvety/question/9252/">Мифы о ТКО!</a>&nbsp;&nbsp;<span
-                                            class="comments"><a href="/spravka/otvety/question/9252/#answers"
-                                                                title="Ответов: 3"><img src="/images/answer3.png">&nbsp;3</a></span><br>
+                                        <a href="http://kushva-online.ru/spravka/otvety/question/9252/">Мифы о ТКО!</a>&nbsp;&nbsp;<span
+                                            class="comments"><a href="http://kushva-online.ru/spravka/otvety/question/9252/#answers"
+                                                                title="Ответов: 3"><img src="http://kushva-online.ru/images/answer3.png">&nbsp;3</a></span><br>
 
                                         <span class="sub">Интересуется <b>Аноним</b></span></div>
                                     <span style="clear:left">&nbsp;</span></div>
@@ -5334,8 +5334,8 @@
 					<span class="h3">
 					                     </span>
                                                             <span class="comments"><nobr>
-                                            <a href="/city/comments/annonce_stream/2966/#topic" title="Обсуждение"><img
-                                                    src="/images/comment0.png">&nbsp;0</a>
+                                            <a href="http://kushva-online.ru/city/comments/annonce_stream/2966/#topic" title="Обсуждение"><img
+                                                    src="http://kushva-online.ru/images/comment0.png">&nbsp;0</a>
 
 
                     </nobr><br>
@@ -5364,8 +5364,8 @@
                                                target="_blank">Внимание, аукцион!!!</a>
 					                     </span>
                                                             <span class="comments"><nobr>
-                                            <a href="/city/comments/annonce_stream/2888/#topic" title="Обсуждение"><img
-                                                    src="/images/comment0.png">&nbsp;0</a>
+                                            <a href="http://kushva-online.ru/city/comments/annonce_stream/2888/#topic" title="Обсуждение"><img
+                                                    src="http://kushva-online.ru/images/comment0.png">&nbsp;0</a>
 
 
                     </nobr><br>
@@ -5393,8 +5393,8 @@
 					                            <span style="color: #FFF">Внимание! Отключение электроснабжения!</span>
                                          </span>
                                                             <span class="comments"><nobr>
-                                            <a href="/city/comments/annonce_stream/2941/#topic" title="Обсуждение"><img
-                                                    src="/images/comment0.png">&nbsp;0</a>
+                                            <a href="http://kushva-online.ru/city/comments/annonce_stream/2941/#topic" title="Обсуждение"><img
+                                                    src="http://kushva-online.ru/images/comment0.png">&nbsp;0</a>
 
 
                     </nobr><br>
@@ -5441,19 +5441,19 @@
 
                     <div
                         style="width:240px; height:260px;  margin: 5px 0px; background-image:url(http://img.kushva-online.ru/archive/day_scene/2020/12/f2fcef61f0a02cd553c1ab169833be7f_240.jpg); background-position: center;">
-                        <a href="/archive/day_photo/" style="display:block; width: 100%; height: 100%;"><img
-                                src="/images/palaroid_film.png">
+                        <a href="http://kushva-online.ru/archive/day_photo/" style="display:block; width: 100%; height: 100%;"><img
+                                src="http://kushva-online.ru/images/palaroid_film.png">
                         </a>
                     </div>
                     <div style="float: left">
-                        <a href="/user/login/" class="like">
+                        <a href="http://kushva-online.ru/user/login/" class="like">
         <span class="ilikeit_false">
 			0            <span class="ilikeit_title" style="opacity: 0;">— Супер!</span>        </span>
                         </a></div>
 
-                    <div style="text-align: right; margin-bottom: 15px">© <a href="/archive/day_photo_author/tolchakir">tolchakir</a>
-                        <span class="comments"><a href="/city/comments/day_photo/1608145200/#topic"
-                                                  title="Обсуждение"><img src="/images/comment0.png"> 0</a></span></div>
+                    <div style="text-align: right; margin-bottom: 15px">© <a href="http://kushva-online.ru/archive/day_photo_author/tolchakir">tolchakir</a>
+                        <span class="comments"><a href="http://kushva-online.ru/city/comments/day_photo/1608145200/#topic"
+                                                  title="Обсуждение"><img src="http://kushva-online.ru/images/comment0.png"> 0</a></span></div>
 
 
                     <div class="banner">
@@ -5479,14 +5479,14 @@
                     </div>
 
 
-                    <div style="padding: 0px 10px; line-height: 20px"><a href="/city/comments/" class="rss"><img
-                                src="/images/newcomments_small.png" width="20px" height="13px">Последние комментарии</a><br>
-                        <a href="/city/comments_popular/" class="rss"><img src="/images/hotcomments_small.png"
+                    <div style="padding: 0px 10px; line-height: 20px"><a href="http://kushva-online.ru/city/comments/" class="rss"><img
+                                src="http://kushva-online.ru/images/newcomments_small.png" width="20px" height="13px">Последние комментарии</a><br>
+                        <a href="http://kushva-online.ru/city/comments_popular/" class="rss"><img src="http://kushva-online.ru/images/hotcomments_small.png"
                                                                            width="20px" height="13px">Горячие
                             темы</a><br>
-                        <a href="/rss/" class="rss"><img src="/images/rss_small.png" width="20px" height="13px">Все
+                        <a href="http://kushva-online.ru/rss/" class="rss"><img src="http://kushva-online.ru/images/rss_small.png" width="20px" height="13px">Все
                             RSS-каналы</a><br>
-                        <a href="http://twitter.com/kushva_online" class="rss"><img src="/images/twitter_small.png"
+                        <a href="http://twitter.com/kushva_online" class="rss"><img src="http://kushva-online.ru/images/twitter_small.png"
                                                                                     width="20px" height="13px">Наш
                             твиттер</a></div>
 
@@ -5515,7 +5515,7 @@
 
 
                     <div class="topic_head2">
-                        <div class="topic_head_link2"><a href="/city/congratulation/" class="white">Поздравления</a>
+                        <div class="topic_head_link2"><a href="http://kushva-online.ru/city/congratulation/" class="white">Поздравления</a>
                         </div>
                         <div class="topic_head_title">Праздники сегодня</div>
                     </div>
@@ -5534,7 +5534,7 @@
                             жизни будет повод всегда счастливой быть! <br>
 
                             <span class="sub"><b>5б</b></span></div>
-                        <p><a href="/city/congratulation/">Поздравить</a></p><span style="clear:left">&nbsp;</span>
+                        <p><a href="http://kushva-online.ru/city/congratulation/">Поздравить</a></p><span style="clear:left">&nbsp;</span>
                     </div>
 
 
@@ -5725,33 +5725,33 @@
             </div>
         </div>
 
-        <div style="float: right; padding-left: 10px;"><a href="/rss/" alt="RSS-каналы на Кушва-онлайн.ру"
+        <div style="float: right; padding-left: 10px;"><a href="http://kushva-online.ru/rss/" alt="RSS-каналы на Кушва-онлайн.ру"
                                                           title="RSS-каналы на Кушва-онлайн.ру"><img
-                    src="/images/rss_big.png"></a></div>
+                    src="http://kushva-online.ru/images/rss_big.png"></a></div>
         <div style="float: right; padding-left: 10px;">
-            <noindex><a href="https://plus.google.com/b/106955861641733358694/"><img src="/images/google-plus.png"
+            <noindex><a href="https://plus.google.com/b/106955861641733358694/"><img src="http://kushva-online.ru/images/google-plus.png"
                                                                                      alt="Наш микроблог на Гугл-плюсе"
                                                                                      title="Наш микроблог на Гугл-плюсе"
                                                                                      width="36" height="36"></a>
             </noindex>
         </div>
         <div style="float: right; padding-left: 10px;">
-            <noindex><a href="http://www.facebook.com/kushvaonline"><img src="/images/facebook.png"
+            <noindex><a href="http://www.facebook.com/kushvaonline"><img src="http://kushva-online.ru/images/facebook.png"
                                                                          alt="Наша группа на Facebook"
                                                                          title="Наша группа на Facebook"></a></noindex>
         </div>
         <div style="float: right; padding-left: 10px;">
-            <noindex><a href="https://twitter.com/#!/kushva_online"><img src="/images/twitter-logo.png"
+            <noindex><a href="https://twitter.com/#!/kushva_online"><img src="http://kushva-online.ru/images/twitter-logo.png"
                                                                          alt="Следите за нами в Твиттере"
                                                                          title="Следите за нами в Твиттере" width="36"
                                                                          height="36"></a></noindex>
         </div>
         <div style="float: right; padding-left: 10px;">
             <noindex><a href="http://www.youtube.com/user/kushvaonline" alt="Наш канал на YouTube"
-                        title="Наш канал на YouTube"><img src="/images/youtube.png"></a></noindex>
+                        title="Наш канал на YouTube"><img src="http://kushva-online.ru/images/youtube.png"></a></noindex>
         </div>
         <div style="float: right; padding-left: 10px;">
-            <noindex><a href="http://www.odnoklassniki.ru/group/54562565259282"><img src="/images/ok.png"
+            <noindex><a href="http://www.odnoklassniki.ru/group/54562565259282"><img src="http://kushva-online.ru/images/ok.png"
                                                                                      alt="Наша группа в Одноклассниках"
                                                                                      title="Наша группа в Одноклассниках"
                                                                                      width="36" height="36"></a>
@@ -5759,17 +5759,17 @@
         </div>
 
         <div style="float: right;">
-            <noindex><a href="http://vk.com/kushvaonline"><img src="/images/vk.png" alt="Наша группа ВКонтакте"
+            <noindex><a href="http://vk.com/kushvaonline"><img src="http://kushva-online.ru/images/vk.png" alt="Наша группа ВКонтакте"
                                                                title="Наша группа ВКонтакте" width="36" height="36"></a>
             </noindex>
         </div>
 
         <p><span class="sub">© ИП Лукин А. Г. 2008–2020 г.<br>Электронная почта: <a href="mailto:info@kushva-online.ru">info@kushva-online.ru</a></span>
         </p>
-        <p><span class="sub"><a href="/city/company/">О сайте</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+        <p><span class="sub"><a href="http://kushva-online.ru/city/company/">О сайте</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
                     href="http://blog.kushva-online.ru/editors">Блог</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
-                    href="/city/advert/">Реклама на сайте</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/city/suggestion/">Книга жалоб и предложений</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
-                    href="/user/agreement/">Пользовательское соглашение</a></span></p>
+                    href="http://kushva-online.ru/city/advert/">Реклама на сайте</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://kushva-online.ru/city/suggestion/">Книга жалоб и предложений</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a
+                    href="http://kushva-online.ru/user/agreement/">Пользовательское соглашение</a></span></p>
 
         <hr class="hr3">
 
