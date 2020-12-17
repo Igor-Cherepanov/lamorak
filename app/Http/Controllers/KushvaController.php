@@ -12,9 +12,9 @@ class KushvaController extends Controller
     public function index()
     {
 //        file_get_contents('');
-//        return view('kushva.index');
+        return view('kushva.index');
 
-        return file_get_contents("http://kushva-online.ru/");
+//        return file_get_contents("http://kushva-online.ru/");
     }
 
     /**
