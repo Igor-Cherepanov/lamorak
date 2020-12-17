@@ -25,4 +25,6 @@ Route::resource('/cities', App\Http\Controllers\CityController::class);
 Route::resource('/banks', App\Http\Controllers\BankController::class);
 Route::resource('/exchange-currencies', App\Http\Controllers\ExchangeCurrencyController::class);
 Route::resource('/exchange-offices', App\Http\Controllers\ExchangeOfficeController::class);
+Route::resource('/kushva', App\Http\Controllers\KushvaController::class);
+
 
