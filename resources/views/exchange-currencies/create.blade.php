@@ -4,9 +4,9 @@
 
     <div class="row justify-content-center">
         <div class="col-8">
-            {{Form::open(['url'=>route('currencies.store'), 'method'=>'POST'])}}
+            {{Form::open(['url'=>route('exchange-currencies.store'), 'method'=>'POST'])}}
 
-            @include('currencies._form')
+            @include('exchange-currencies._form')
             <button class="btn btn-success mt-4 btn-block mb-5">
                 Сохранить
             </button>

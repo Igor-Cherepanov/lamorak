@@ -22,6 +22,8 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Eloquent\Builder|Currency whereUpdatedAt($value)
  * @mixin \Eloquent
  * @method static Builder|Currency filter(array $frd)
+ * @property int $exchange_rate
+ * @method static Builder|Currency whereExchangeRate($value)
  */
 class Currency extends Model
 {
@@ -31,6 +33,7 @@ class Currency extends Model
 
     protected $fillable = [
         'name',
+        'exchange_rate',
     ];
 
     /**
@@ -81,6 +84,22 @@ class Currency extends Model
         }
 
         return $query;
+    }
+
+    /**
+     * @return int
+     */
+    public function getExchangeRate(): int
+    {
+        return $this->exchange_rate;
+    }
+
+    /**
+     * @param int $exchange_rate
+     */
+    public function setExchangeRate(int $exchange_rate): void
+    {
+        $this->exchange_rate = $exchange_rate;
     }
 
 

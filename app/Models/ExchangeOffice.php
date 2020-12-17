@@ -25,6 +25,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|ExchangeOffice whereUpdatedAt($value)
  * @mixin \Eloquent
  * @method static Builder|ExchangeOffice filter(array $frd)
+ * @property-read \App\Models\Bank $bank
  */
 class ExchangeOffice extends Model
 {
