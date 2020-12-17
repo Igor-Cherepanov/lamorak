@@ -4594,15 +4594,13 @@
 
     <div class="headbanner">
         <div class="small-banner">
-            <iframe src="http://img.kushva-online.ru/br/1/nasonov-012020.html" border="0" scrolling="no"
-                    allowtransparency="true" width="1000" height="80" style="border:0;">
-            </iframe>
+test
         </div>
     </div>
     <div class="headmenu" style="background-image: url(http://kushva-online.ru/images/head0.png);">
         <div class="headlogo" style="background-image: url(http://kushva-online.ru/images/head0.png);"><a href="http://kushva-online.ru/"><img
                     src="http://kushva-online.ru/images/kushva-online.png" alt="Кушва-онлайн.ру"></a></div>
-        <div class="menu-item"><a href="http://kushva-online.ru/archive/">Архив</a></div>
+        <div class="menu-item"><a href="http://kushva-online.ru/archive/">Жопа</a></div>
         <div class="menu-item"><a href="http://kushva-online.ru/board/">Объявления</a></div>
         <div class="menu-item"><a href="http://kushva-online.ru/spravka/">Справка</a></div>
         <div class="menu-item"><a href=http://kushva-online.ru"/blog/">Блоги</a></div>
