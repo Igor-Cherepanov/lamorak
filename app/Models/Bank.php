@@ -25,6 +25,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Bank whereUpdatedAt($value)
  * @mixin \Eloquent
  * @method static Builder|Bank filter(array $frd)
+ * @property-read \App\Models\City $city
  */
 class Bank extends Model
 {

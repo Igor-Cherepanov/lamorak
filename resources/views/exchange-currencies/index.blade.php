@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-10">
-                {{ Form::open(['url'=>route('currencies.index'),'method'=>'get']) }}
+                {{ Form::open(['url'=>route('exchange-currencies.index'),'method'=>'get']) }}
                 <div class="row">
                     <div class="col-auto">
                         @include('form._input',[
@@ -30,7 +30,7 @@
                         </button>
                     </div>
                     <div class="col-auto">
-                        <a class="btn btn-outline-danger" href="{{route('currencies.index')}}">
+                        <a class="btn btn-outline-danger" href="{{route('exchange-currencies.index')}}">
                             <i class="far fa-window-close"></i>
                         </a>
                     </div>
@@ -39,29 +39,29 @@
                 {{ Form::close() }}
             </div>
             <div class="col-2 text-right">
-                <a class="btn btn-outline-success" href="{{route('currencies.create')}}">
+                <a class="btn btn-outline-success" href="{{route('exchange-currencies.create')}}">
                     Создать
                 </a>
             </div>
         </div>
 
-        @forelse($currencies as $currency)
+        @forelse($exchangeCurrencies as $exchangeCurrency)
             <div class="row">
                 <div class="col-1">
-                    # {{$currency->getKey()}}
+                    # {{$exchangeCurrency->getKey()}}
                 </div>
                 <div class="col-9">
-                    <a class="text-primary" href="{{route('currencies.edit', $currency)}}">
-                        {{$currency->getName()}}
+                    <a class="text-primary" href="{{route('exchange-currencies.edit', $exchangeCurrency)}}">
+                        {{$exchangeCurrency->getName()}}
                     </a>
                 </div>
                 <div class="col-2 text-right">
                     <div class="btn-group">
-                        <a class="btn btn-sm btn-outline-secondary" href="{{route('currencies.edit', $currency)}}"><i
+                        <a class="btn btn-sm btn-outline-secondary" href="{{route('exchange-currencies.edit', $exchangeCurrency)}}"><i
                                 class="fa fa-fw fa-edit"></i></a>
-                        <button form="news-delete-{{$currency->getKey()}}" onclick="return confirm('Вы уверены ?')"
+                        <button form="news-delete-{{$exchangeCurrency->getKey()}}" onclick="return confirm('Вы уверены ?')"
                                 class="btn btn-sm btn-outline-danger rounded-right"><i class="fas fa-trash-alt"></i></button>
-                        {{Form::open(['url'=>route('currencies.destroy', $currency), 'method'=>'DELETE', 'id'=>'news-delete-'.$currency->getKey()])}}
+                        {{Form::open(['url'=>route('exchange-currencies.destroy', $exchangeCurrency), 'method'=>'DELETE', 'id'=>'news-delete-'.$exchangeCurrency->getKey()])}}
                         {{Form::close()}}
                     </div>
                 </div>
@@ -74,7 +74,7 @@
             </div>
         @endforelse
         @include('form._pagination',[
-            'elements'=>$currencies,
+            'elements'=>$exchangeCurrencies,
         ])
     </div>
 

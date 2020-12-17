@@ -45,7 +45,7 @@ class ExchangeCurrency extends Model
 {
     use HasFactory;
 
-    protected $table = 'exchange_currency';
+    protected $table = 'exchange_currencies';
 
     protected $fillable = [
         'f_name',

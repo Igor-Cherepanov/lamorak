@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="bg-danger alert">
-        <h1> Настя лох ksta</h1>
+        <h1>гы гы гы </h1>
     </div>
 
 @endsection
