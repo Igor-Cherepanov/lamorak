@@ -40,7 +40,7 @@ if (isset($name)) {
    'step'=>$step ?? null,
    'max'=>$max ?? null,
    'min'=>$min ?? null,
-
+   'id'=>$id ?? null,
    ]+($attributes)) }}
 
         @isset($postfix)

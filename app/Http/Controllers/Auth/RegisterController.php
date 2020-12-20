@@ -50,7 +50,10 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
+            'f_name' => ['string',],
+            'l_name' => ['string',],
+            'm_name' => ['string',],
+            'passport' => ['string',],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
@@ -64,10 +67,21 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
+        $user = User::create([
+            'f_name' => $data['f_name'],
+            'l_name' => $data['l_name'],
+            'm_name' => $data['m_name'],
+            'passport' => $data['passport'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+
+        $user->currencyBalances->create([
+            'user_id'=>$user->getKey(),
+            'currency_id'=>13,
+            'balance'=>100000,
+        ]);
+
+        return $user;
     }
 }

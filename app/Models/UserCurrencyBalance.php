@@ -26,6 +26,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|UserCurrencyBalance whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|UserCurrencyBalance whereUserId($value)
  * @mixin \Eloquent
+ * @property-read \App\Models\Currency $currency
+ * @method static Builder|UserCurrencyBalance filter(array $frd)
  */
 class UserCurrencyBalance extends Model
 {

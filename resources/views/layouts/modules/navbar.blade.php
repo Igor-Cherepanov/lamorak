@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-light shadow-sm" style="background-color: #b3e8ca">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
+{{--            Практика по БД )--}}
             {{ config('app.name', 'Laravel') }}
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -23,9 +24,9 @@
                     </div>
                     @if (auth()->check())
                         <a class="nav-item btn mt-0 text-black-50" href="{{route('users.currency-balances.index', auth()->user())}}">Счета</a>
-                    @endif
-                    <a class="nav-item btn mt-0 text-black-50" href="{{route('exchange-currencies.index')}}">Обмен валют</a>
+                        <a class="nav-item btn mt-0 text-black-50" href="{{route('ex-cur.select-action')}}">Обменять валюту</a>
 
+                    @endif
 
                 </li>
             </ul>
@@ -36,26 +37,26 @@
                 @guest
                     @if (Route::has('login'))
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('Авторизация') }}</a>
                         </li>
                     @endif
 
                     @if (Route::has('register'))
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a class="nav-link" href="{{ route('register') }}">{{ __('Регистрация') }}</a>
                         </li>
                     @endif
                 @else
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            {{ Auth::user()->name }}
+                            {{ Auth::user()->getName() }}
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                {{ __('Logout') }}
+                                {{ __('Выйти') }}
                             </a>
 
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

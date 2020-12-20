@@ -1,14 +1,20 @@
-@extends('layouts.app', ['sectionContent' => false])
+@extends('layouts.app')
 
 @section('content')
 
-    <div class="p-5 text-center bg-image" style="background-image: url(~images/test.tes);">
-
+    <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="card shadow p-3 mb-5 bg-white rounded">
+            <div class="card-body m-4">
+                <h1 class="mb-3">Обмен валюты</h1>
+                <h5 class="mb-4">Выберите тип обмена</h5>
+                <a class="btn btn-outline-dark btn-lg mt-2 mr-3" href="{{route('ex-cur.select-currencies', 1)}}">
+                    Валюта в рубли
+                </a>
+                <a class="btn btn-outline-dark btn-lg mt-2 ml-3" href="{{route('ex-cur.select-currencies', 2)}}">
+                    Рубли в валюту
+                </a>
+            </div>
+        </div>
     </div>
-{{--    <div class="row">--}}
-{{--        <div class="col-12 p-5 text-center bg-image" style="background-image: url(images/select-action-bg-1.jpg)">--}}
-
-{{--        </div>--}}
-{{--    </div>--}}
 
 @endsection
