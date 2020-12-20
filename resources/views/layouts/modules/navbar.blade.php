@@ -13,17 +13,21 @@
                 <li class="nav-item dropdown">
                     <div class="nav-item btn mt-0 dropdown-toggle text-black-50" type="button" id="dropdownMenuButton"
                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Справочник
+                        Справочники
                     </div>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="{{route('currencies.index')}}">Валюты</a>
                         <a class="dropdown-item" href="{{route('cities.index')}}">Города</a>
                         <a class="dropdown-item" href="{{route('banks.index')}}">Банки</a>
-                        <a class="dropdown-item" href="{{route('exchange-currencies.index')}}">Обмен валют</a>
                         <a class="dropdown-item" href="{{route('exchange-offices.index')}}">Пункты обмена валют</a>
                     </div>
-                </li>
+                    @if (auth()->check())
+                        <a class="nav-item btn mt-0 text-black-50" href="{{route('users.currency-balances.index', auth()->user())}}">Счета</a>
+                    @endif
+                    <a class="nav-item btn mt-0 text-black-50" href="{{route('exchange-currencies.index')}}">Обмен валют</a>
 
+
+                </li>
             </ul>
 
             <!-- Right Side Of Navbar -->

@@ -8,7 +8,7 @@
 
 @include('form._input', [
     'name'=>'exchange_rate',
-    'label'=>'Название',
+    'label'=>'Стоимость (руб.)',
     'type'=>'number',
     'value'=>isset($currency) ? $currency->getExchangeRate():'',
     'required'=>true,

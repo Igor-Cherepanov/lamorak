@@ -121,4 +121,9 @@ class ExchangeCurrencyController extends Controller
 
         return redirect()->route('exchange-currencies.index')->with(compact('frd', 'flashMessages'));
     }
+
+    public function selectAction(){
+        return \view('exchange-currencies.select-action');
+    }
+
 }
