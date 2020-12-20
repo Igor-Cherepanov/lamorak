@@ -4,8 +4,11 @@ namespace App\Models;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\Collection;
 
 /**
  * App\Models\User
@@ -153,6 +156,20 @@ class User extends Authenticatable
     public function getUpdatedAt(): ?\Illuminate\Support\Carbon
     {
         return $this->updated_at;
+    }
+
+    /**
+     * @return HasMany
+     */
+    public function currencyBalances():HasMany{
+        return $this->hasMany(UserCurrencyBalance::class);
+    }
+
+    /**
+     * @return Collection
+     */
+    public function getCurrencyBalances():Collection{
+        return $this->currencyBalances;
     }
 
 

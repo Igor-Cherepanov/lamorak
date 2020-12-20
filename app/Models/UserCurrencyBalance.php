@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
  * App\Models\UserCurrencyBalance
@@ -100,6 +102,45 @@ class UserCurrencyBalance extends Model
     public function getUpdatedAt(): ?\Illuminate\Support\Carbon
     {
         return $this->updated_at;
+    }
+
+    /**
+     * @param Builder $query
+     * @param array $frd
+     * @return Builder
+     */
+    public function scopeFilter(Builder $query, array $frd): Builder
+    {
+        foreach ($frd as $key => $value) {
+            switch ($key) {
+                case 'search':
+                    $query->where('name', 'like', '%' . $value . '%');
+                    break;
+            }
+        }
+
+        return $query;
+    }
+
+    /**
+     * @return BelongsTo
+     */
+    public function currency():BelongsTo{
+        return $this->belongsTo(Currency::class);
+    }
+
+    /**
+     * @return Currency
+     */
+    public function getCurrency():Currency{
+        return $this->currency;
+    }
+
+    /**
+     * @return string
+     */
+    public function getSubCurrencyName():string{
+        return mb_substr($this->getCurrency()->getName(), 0, 3).'.';
     }
 
 }
