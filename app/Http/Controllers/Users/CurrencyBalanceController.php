@@ -34,7 +34,7 @@ class CurrencyBalanceController extends Controller
     public function index(Request $request, User $user)
     {
         $frd = $request->all();
-        $currencyBalances = $user->getCurrencyBalances();
+        $currencyBalances = auth()->user()->getCurrencyBalances();
 
         return view('users.currency-balances.index', compact('currencyBalances', 'user', 'frd'));
     }

@@ -29,6 +29,9 @@ Route::resource('/kushva', App\Http\Controllers\KushvaController::class);
 Route::resource('/exchange-currencies', App\Http\Controllers\ExchangeCurrencyController::class);
 Route::prefix('/exchange-currency')->name('ex-cur.')->group(function () {
     Route::get('/select-action', [\App\Http\Controllers\ExchangeCurrencyController::class, 'selectAction'])->name('select-action');
+    Route::get('/action{action_id}/select-currencies', [\App\Http\Controllers\ExchangeCurrencyController::class, 'selectCurrency'])->name('select-currencies');
+    Route::get('/action{action_id}/select-currencies/{currency}',
+        [\App\Http\Controllers\ExchangeCurrencyController::class, 'exchange'])->name('exchange');
 });
 
 Route::prefix('users/{user}')->name('users.')->group(function () {

@@ -16,6 +16,11 @@ class ExchangeCurrencyController extends Controller
     protected $exchangeCurrencies;
 
     /**
+     * @var Currency $currencies
+     */
+    protected $currencies;
+
+    /**
      * ExchangeCurrencyController constructor.
      * @param ExchangeCurrency $exchangeCurrencies
      * @param Currency $currencies
@@ -24,6 +29,7 @@ class ExchangeCurrencyController extends Controller
     public function __construct(ExchangeCurrency $exchangeCurrencies, Currency $currencies, ExchangeOffice $exchangeOffices)
     {
         $this->exchangeCurrencies = $exchangeCurrencies;
+        $this->currencies = $currencies;
         $currencyList = $currencies->pluck('name', 'id');
         $exchangeOfficeList = $exchangeOffices->pluck('name', 'id');
         View::share('currencyList', $currencyList);
@@ -124,6 +130,17 @@ class ExchangeCurrencyController extends Controller
 
     public function selectAction(){
         return \view('exchange-currencies.select-action');
+    }
+
+    public function selectCurrency(int $action_id){
+        $currencies = $this->currencies->where('id', '<>', 13)->get();
+
+        return \view('exchange-currencies.select-currency', compact('currencies','action_id'));
+    }
+
+    public function exchange(int $action_id, Currency $currency){
+
+        return \view('exchange-currencies.exchange', compact('currency','action_id'));
     }
 
 }

@@ -35,6 +35,16 @@ use Illuminate\Database\Eloquent\Collection;
  * @method static \Illuminate\Database\Eloquent\Builder|User whereRememberToken($value)
  * @method static \Illuminate\Database\Eloquent\Builder|User whereUpdatedAt($value)
  * @mixin \Eloquent
+ * @property string|null $f_name
+ * @property string|null $l_name
+ * @property string|null $m_name
+ * @property string|null $passport
+ * @property-read Collection|\App\Models\UserCurrencyBalance[] $currencyBalances
+ * @property-read int|null $currency_balances_count
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereFName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereLName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User whereMName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|User wherePassport($value)
  */
 class User extends Authenticatable
 {
@@ -46,9 +56,12 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name',
         'email',
         'password',
+        'f_name',
+        'l_name',
+        'm_name',
+        'passport',
     ];
 
     /**
@@ -75,15 +88,7 @@ class User extends Authenticatable
      */
     public function getName(): string
     {
-        return $this->name;
-    }
-
-    /**
-     * @param string $name
-     */
-    public function setName(string $name): void
-    {
-        $this->name = $name;
+        return $this->getFName().' '.mb_substr($this->getLName(), 0, 1).'. '.mb_substr($this->getMName(), 0, 1).'. ';
     }
 
     /**
@@ -172,5 +177,83 @@ class User extends Authenticatable
         return $this->currencyBalances;
     }
 
+    /**
+     * @param int $id
+     * @return UserCurrencyBalance
+     */
+    public function getCurrencyBalance(int $id):UserCurrencyBalance{
+        return $this->currencyBalances()->whereId($id)->first();
+    }
+
+    /**
+     * @return UserCurrencyBalance
+     */
+    public function getRubCurrencyBalance():UserCurrencyBalance{
+        return $this->currencyBalances()->where('currency_id', '=', 13)->first();
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getFName(): ?string
+    {
+        return $this->f_name;
+    }
+
+    /**
+     * @param string|null $f_name
+     */
+    public function setFName(?string $f_name): void
+    {
+        $this->f_name = $f_name;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getLName(): ?string
+    {
+        return $this->l_name;
+    }
+
+    /**
+     * @param string|null $l_name
+     */
+    public function setLName(?string $l_name): void
+    {
+        $this->l_name = $l_name;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getMName(): ?string
+    {
+        return $this->m_name;
+    }
+
+    /**
+     * @param string|null $m_name
+     */
+    public function setMName(?string $m_name): void
+    {
+        $this->m_name = $m_name;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getPassport(): ?string
+    {
+        return $this->passport;
+    }
+
+    /**
+     * @param string|null $passport
+     */
+    public function setPassport(?string $passport): void
+    {
+        $this->passport = $passport;
+    }
 
 }
