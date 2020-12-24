@@ -174,7 +174,7 @@ class User extends Authenticatable
      * @return Collection
      */
     public function getCurrencyBalances():Collection{
-        return $this->currencyBalances;
+        return $this->currencyBalances()->get();
     }
 
     /**
@@ -182,7 +182,7 @@ class User extends Authenticatable
      * @return UserCurrencyBalance
      */
     public function getCurrencyBalance(int $id):UserCurrencyBalance{
-        return $this->currencyBalances()->whereId($id)->first();
+        return $this->currencyBalances()->where('currency_id', '=', $id)->first();
     }
 
     /**
