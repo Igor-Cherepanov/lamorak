@@ -94,5 +94,3 @@ $currencyBalance = $user->getCurrencyBalance($currency->getKey());
 
 {{Form::hidden('exchange_rate', $currency->getExchangeRate(), ['id'=>'exchange_rate'])}}
 
-{{Form::hidden($action_id === 2 ? 'sold_currency_count' : 'sold_rub_count', 0)}}
-{{Form::hidden($action_id === 2 ? 'bought_currency_count' : 'bought_rub_count', 0)}}

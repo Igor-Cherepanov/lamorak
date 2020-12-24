@@ -67,11 +67,17 @@ class ExchangeCurrencyController extends Controller
     public function store(Request $request)
     {
         $frd = $request->all();
+        $exType = $frd['action_id'] ?? 1;
+        $frd['sold_currency_count'] = $frd['sold_currency_count'] ?? 0;
+        $frd['bought_currency_count'] = $frd['bought_currency_count'] ?? 0;
+        $frd['sold_rub_count'] = $frd['sold_rub_count'] ?? 0;
+        $frd['bought_rub_count'] = $frd['bought_rub_count'] ?? 0;
+
         $exchangeCurrency = $this->exchangeCurrencies->create($frd);
 
-        $flashMessages = [['type' => 'success', 'text' => 'Валюта «' . $exchangeCurrency->getName() . '» сохранена']];
+        $flashMessages = [['type' => 'success', 'text' => 'Обмен проведен']];
 
-        return redirect()->route('exchange-currencies.edit', $exchangeCurrency)->with(compact('flashMessages'));
+        return redirect()->route('exchange-currencies.index', $exchangeCurrency)->with(compact('flashMessages'));
     }
 
     /**
